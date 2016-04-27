@@ -177,8 +177,11 @@
     <Folder Include="Areas\User\Views\Shared\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+<<<<<<< HEAD:eQuizz/Modules/eQuiz.Web/eQuiz.Web.csproj
     <Folder Include="Scripts\app\" />
     <Folder Include="Styles\" />
+=======
+>>>>>>> origin/master:eQuizz/eQuiz.Web/eQuiz.Web.csproj
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
