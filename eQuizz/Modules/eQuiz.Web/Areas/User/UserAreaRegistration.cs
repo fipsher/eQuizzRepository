@@ -16,7 +16,7 @@ namespace eQuiz.Modules.Web.Areas.User
         {
             context.MapRoute(
                 "User_default",
-                "User/{controller}/{action}/{id}",
+                "users/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }

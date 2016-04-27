@@ -16,7 +16,7 @@ namespace eQuiz.Modules.Web.Areas.Moderator
         {
             context.MapRoute(
                 "Moderator_default",
-                "Moderator/{controller}/{action}/{id}",
+                "moderators/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }
