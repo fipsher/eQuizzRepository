@@ -19,7 +19,7 @@ namespace eQuiz.Modules.Web.Areas.User.Controllers
             return View();
         }
 
-        public ActionResult QuizzesList()
+        public ActionResult Dashboard()
         {
             return View();
         }
