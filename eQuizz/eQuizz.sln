@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Web", "Modules\eQuiz.Web\eQuiz.Web.csproj", "{1F3B7F17-BF3D-48A2-88DD-58BA48B70FC9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Repositories", "Modules\eQuiz.Repositories\eQuiz.Repositories.csproj", "{CC6EAA51-21C6-444A-AD34-25FC9156E508}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Entities", "Modules\eQuizz.Entities\eQuiz.Entities.csproj", "{015BEB66-C59E-4156-9AC0-AC6277116F5C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Web.Test", "Tests\eQuiz.Web.Test\eQuiz.Web.Test.csproj", "{023D1DC7-1387-4796-8372-A002087B08D3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{EB059E8C-0580-4613-8FCC-8D77C27971C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{531AD35D-F013-42C3-960A-2F92FC565B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Web", "eQuiz.Web\eQuiz.Web.csproj", "{1F3B7F17-BF3D-48A2-88DD-58BA48B70FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Repositories", "eQuiz.Repositories\eQuiz.Repositories.csproj", "{CC6EAA51-21C6-444A-AD34-25FC9156E508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Entities", "eQuizz.Entities\eQuiz.Entities.csproj", "{015BEB66-C59E-4156-9AC0-AC6277116F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuiz.Web.Test", "eQuiz.Web.Test\eQuiz.Web.Test.csproj", "{023D1DC7-1387-4796-8372-A002087B08D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
